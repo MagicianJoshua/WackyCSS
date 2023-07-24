@@ -17,7 +17,7 @@ header { /*This header element  has been refactored so there arent so many heade
     
 }
 
-ul{
+ul{/*This ul element handles the navigation bar at the top of the website*/
     list-style-type: none; 
     display: inline-block;
     position:absolute;
@@ -25,30 +25,36 @@ ul{
     right:25px;
 }
 
-li{
+li{/*This li element handles the space and font size of the lists inside the ul at the top of the page*/
     display: inline;
     margin:50px;
     font-size: 30px;
 }
 
 h1 {
-    display: inline-block;
+    display: inline;
     font-size: 60px;
 }
 
-.header div {
+
+
+h3{
+    font-size: 35PX;
+}
+
+/*.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
-}
+}*/
 
 
 
-.header div ul li {
+/*.header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
+}*/
 
 a {
     color: #ffffff;
@@ -56,14 +62,15 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
+    
+    width:100%;
+   aspect-ratio: 1.5;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    
     background-size: cover;
     background-position: center;
 }
