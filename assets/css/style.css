@@ -53,19 +53,7 @@ h3{
     font-size: 35PX;
 }
 
-/*.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-}*/
 
-
-
-/*.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}*/
 
 a {
     color: #ffffff;
@@ -129,7 +117,25 @@ p {
     max-width: 150px;
 }
 
-/*.benefit-brand {
+.card { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.card img{
+    max-height: 200px;
+}
+.card h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Refactored all of these classes into 3 different classes.
+
+.benefit-brand { 
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -171,15 +177,11 @@ p {
     max-width: 150px;
 }*/
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/*This class handles the cards for the section about search engine optimization
+online reputation management and social media marketing*/
 
+
+/* Refactored this code into 3 .card classes
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -223,7 +225,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
 /*Refactored the .footer class into an actuall footer semantic element at the top of the page
 
@@ -235,3 +237,16 @@ p {
     text-align: center;
 }*/
 
+/*.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}*/
+
+
+
+/*.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}*/
