@@ -17,18 +17,27 @@ header { /*This header element  has been refactored so there arent so many heade
     
 }
 
-ul{/*This ul element handles the navigation bar at the top of the website*/
+footer{
+    font-size: 20px;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+nav {/*replaced the div at the top that was handling the navbar inside the header and replaced it with navbar*/
     list-style-type: none; 
     display: inline-block;
     position:absolute;
     margin:20px;
     right:25px;
+    font-size: 30px;
 }
+
 
 li{/*This li element handles the space and font size of the lists inside the ul at the top of the page*/
     display: inline;
     margin:50px;
-    font-size: 30px;
+    
 }
 
 h1 {
@@ -36,7 +45,9 @@ h1 {
     font-size: 60px;
 }
 
-
+h2{
+    font-size: 20px;
+}
 
 h3{
     font-size: 35PX;
@@ -64,6 +75,7 @@ a {
 p {
     font-size: 30px;
 }
+
 
 .hero {
     
@@ -204,13 +216,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*Refactored the .footer class into an actuall footer semantic element at the top of the page
+
+/*.footer { 
+    font-size: 20px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+}*/
 
-.footer h2 {
-    font-size: 20px;
-}
