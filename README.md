@@ -5,3 +5,5 @@
 - A: By using semantic elements in css rather than divs.
  ## Usage
  ![alt text](assets/webpic)
+
+[Deployed website](magicianjoshua.github.io.)
