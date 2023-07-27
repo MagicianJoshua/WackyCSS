@@ -3,3 +3,5 @@
 - A: To make the website more accesible for seo
 - Q: How did you make this project more accesible?
 - A: By using semantic elements in css rather than divs.
+ ## Usage
+ ![alt text](assets/webpic)
