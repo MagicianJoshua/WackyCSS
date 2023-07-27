@@ -6,4 +6,4 @@
  ## Usage
  ![alt text](assets/webpic)
 
-[Deployed website](magicianjoshua.github.io.)
+ the link to my website : magicianjoshua.github.io.
