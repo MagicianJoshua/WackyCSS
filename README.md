@@ -6,4 +6,4 @@
  ## Usage
  ![alt text](assets/webpic)
 
- the link to my website : magicianjoshua.github.io.
+ [Link to website](https://magicianjoshua.github.io/wackycss-challenge1/)
